@@ -59,3 +59,7 @@ jarTasks.forEach {
 
 val dokkaHtml by tasks.getting(DokkaTask::class)
 dokkaHtml.dependsOn(generateTasks)
+
+signing {
+    setRequired { false }
+}

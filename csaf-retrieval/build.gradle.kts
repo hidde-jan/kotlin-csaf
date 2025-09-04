@@ -39,3 +39,7 @@ kotlin {
         }
     }
 }
+
+signing {
+    setRequired { false }
+}

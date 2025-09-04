@@ -107,3 +107,7 @@ tasks {
         dependsOn(unzipCWE)
     }
 }
+
+signing {
+    setRequired { false }
+}

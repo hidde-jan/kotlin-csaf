@@ -81,3 +81,7 @@ kotlin {
         }
     }
 }
+
+signing {
+    setRequired { false }
+}
